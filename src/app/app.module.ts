@@ -10,6 +10,8 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FontAwesomeModule,
     NgbModule,
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
