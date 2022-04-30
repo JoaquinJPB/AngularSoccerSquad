@@ -1,15 +1,17 @@
 <section class="container pt-5 pb-5">
-    <div class="row gy-3">
-        <div class="card-player col-12 col-sm-6 col-md-4" *ngFor="let player of players">
+    <div class="row g-4 mx-2 mx-sm-0">
+        <div class="card-player col-12 col-md-6 col-lg-4" *ngFor="let player of players">
             <div class="card-body">
                 <img class="card-img-top" src="{{player.img}}" alt="{{player.name}}">
-                <p class="card-text"><strong>Name: </strong> {{player.name}}</p>
-                <p class="card-text"><strong>Position: </strong> {{player.position}}</p>
-                <p class="card-text"><strong>Nationality: </strong> {{player.nationality}}</p>
-                <p class="card-text"><strong>Birth: </strong> {{player.birth}}</p>
-                <div class="d-flex flex-row justify-content-start align-items-end">
-                    <button type="button" class="btn btn-primary">Edit</button>
-                    <button type="button" class="btn btn-danger ms-2">Delete</button>
+                <div class="card-info mt-2">
+                    <p><strong>Name: </strong> {{player.name}}</p>
+                    <p><strong>Position: </strong> {{player.position}}</p>
+                    <p><strong>Nationality: </strong> {{player.nationality}}</p>
+                    <p><strong>Birth: </strong> {{player.birth}}</p>
+                </div>
+                <div class="d-flex flex-row justify-content-between">
+                    <button type="button" class="btn btn-edit w-100 draw-border">Edit</button>
+                    <button type="button" class="btn btn-delete w-100 ms-2 draw-border">Delete</button>
                 </div>  
             </div>
         </div>  
