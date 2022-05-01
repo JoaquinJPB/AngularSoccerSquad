@@ -14,10 +14,17 @@ export class HomeComponent implements OnInit {
   constructor(private adminService: AdminServicesService) { }
 
   ngOnInit(): void {
+    this.getPlayers();
+  }
+
+  getPlayers(){
     this.adminService.getAlllPlayers().subscribe(players => {
       this.players = players;
-      console.log(this.players);
     })
+  }
+
+  deletePlayer(player: any){
+
   }
 
 }

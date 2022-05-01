@@ -10,8 +10,8 @@
                     <p><strong>Birth: </strong> {{player.birth}}</p>
                 </div>
                 <div class="d-flex flex-row justify-content-between">
-                    <button type="button" class="btn btn-edit w-100 draw-border">Edit</button>
-                    <button type="button" class="btn btn-delete w-100 ms-2 draw-border">Delete</button>
+                    <button type="button" class="btn btn-edit w-100 draw-border" routerLink="details/{{player.id}}">Edit</button>
+                    <button type="button" class="btn btn-delete w-100 ms-2 draw-border" (click)="deletePlayer(player)">Delete</button>
                 </div>  
             </div>
         </div>  
