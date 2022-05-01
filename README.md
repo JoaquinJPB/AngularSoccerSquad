@@ -14,4 +14,4 @@ Al acceder a la aplicación, se pregunta por unas credenciales que son:
 - User: admin@gmail.com 
 - Password: admindaw2
 
-Para observar el funcionamiento de la aplicación acceda mediante este enlace: https://angular-soccer-squad.vercel.app/admin/home
+Para observar el funcionamiento de la aplicación acceda mediante este enlace: https://angular-soccer-squad.vercel.app/login
