@@ -1,0 +1,92 @@
+{
+    "players": [
+      {
+        "id": 1,
+        "name": "Thibaut  Courtois",
+        "position": "Goalkeeper",
+        "nationality": "Belgian",
+        "birth": "1992-05-11",
+        "img": "../../../../../assets/images/Courtois.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Daniel Carvajal",
+        "position": "Defender",
+        "nationality": "Spanish",
+        "birth": "1992-01-11",
+        "img": "../../../../../assets/images/Carvajal.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Éder Militão",
+        "position": "Defender",
+        "nationality": "Brazilian",
+        "birth": "1998-01-18",
+        "img": "../../../../../assets/images/Militao.jpg"
+      },
+      {
+        "id": 4,
+        "name": "David Alaba",
+        "position": "Defender",
+        "nationality": "Austrian",
+        "birth": "1992-06-24",
+        "img": "../../../../../assets/images/Alaba.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Ferland Mendy",
+        "position": "Defender",
+        "nationality": "French",
+        "birth": "1995-06-08",
+        "img": "../../../../../assets/images/Mendy.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Toni Kroos",
+        "position": "Midfielder",
+        "nationality": "German",
+        "birth": "1990-01-04",
+        "img": "../../../../../assets/images/Kroos.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Luka Modric",
+        "position": "Midfielder",
+        "nationality": "Croatian",
+        "birth": "1985-09-09",
+        "img": "../../../../../assets/images/Modric.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Carlos Casemiro",
+        "position": "Midfielder",
+        "nationality": "Brazilian",
+        "birth": "1992-02-23",
+        "img": "../../../../../assets/images/Casemiro.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Federico Valverde",
+        "position": "Midfielder",
+        "nationality": "Uruguayan",
+        "birth": "1998-07-22",
+        "img": "../../../../../assets/images/Valverde.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Karim Benzema",
+        "position": "Forward",
+        "nationality": "French",
+        "birth": "1987-12-19",
+        "img": "../../../../../assets/images/Benzema.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Vinicius Junior",
+        "position": "Forward",
+        "nationality": "Brazilian",
+        "birth": "2000-07-12",
+        "img": "../../../../../assets/images/ViniJr.jpg"
+      }
+    ]
+  }

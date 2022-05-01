@@ -25,12 +25,13 @@ export class CreatePlayerComponent implements OnInit {
     this.location.back();
   }
 
-  create(name: string, position: string, nationality: string, birth: string,): void {
+  create(name: string, position: string, nationality: string, birth: string, img: string): void {
     let player = {
       name: name,
       position: position,
       nationality: nationality,
       birth: birth,
+      img: img,
     }
     if(player) {
       this.adminService.createPlayer(player)

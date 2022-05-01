@@ -16,10 +16,12 @@
                     <input type="text" name="inputNationality" id="nationalityPlayer" #playerNationality required>
                     <label for="inputBirth">Birth: </label>
                     <input type="date" name="inputBirth" id="birthPlayer" #playerBirth required>
+                    <label for="inputImg">Url img: </label>
+                    <input type="url" name="inputimg" id="imgPlayer" #playerImg required>
                 </div>
                 <div class="mt-2 d-flex flex-row">
                     <button type="button" class="btn btn-create w-100 draw-border" 
-                    (click)="create(playerName.value, playerPosition.value, playerNationality.value, playerBirth.value)">Create</button>
+                    (click)="create(playerName.value, playerPosition.value, playerNationality.value, playerBirth.value, playerImg.value)">Create</button>
                     <button type="button" class="btn btn-back w-100 ms-2 draw-border" (click)="goBack()">Back</button>
                 </div>  
             </div>

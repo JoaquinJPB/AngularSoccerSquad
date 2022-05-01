@@ -9,7 +9,7 @@ import { AdminServicesService } from '../../admin-services/admin-services.servic
 })
 export class HomeComponent implements OnInit {
 
-  players: any = {};
+  players: any[] = [];
 
   constructor(private adminService: AdminServicesService) { }
 
@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   }
 
   deletePlayer(player: any){
-    this.players = JSON.parse(JSON.stringify(Object.values(this.players).filter(p => p !== player)));
+    this.players = this.players.filter(p => p !== player);
     this.adminService.deletePlayer(player.id).subscribe();
   }
 
