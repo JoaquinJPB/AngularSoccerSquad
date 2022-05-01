@@ -6,7 +6,7 @@
       "position": "Goalkeeper",
       "nationality": "Belgian",
       "birth": "1992-05-11",
-      "img": "../../../../../assets/images/Courtois.jpg"
+      "img": "./../../../../../assets/images/Courtois.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "position": "Defender",
       "nationality": "Spanish",
       "birth": "1992-01-11",
-      "img": "../../../../../assets/images/Carvajal.jpg"
+      "img": "./../../../../../assets/images/Carvajal.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "position": "Defender",
       "nationality": "Brazilian",
       "birth": "1998-01-18",
-      "img": "../../../../../assets/images/Militao.jpg"
+      "img": "./../../../../../assets/images/Militao.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "position": "Defender",
       "nationality": "Austrian",
       "birth": "1992-06-24",
-      "img": "../../../../../assets/images/Alaba.jpg"
+      "img": "./../../../../../assets/images/Alaba.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "position": "Defender",
       "nationality": "French",
       "birth": "1995-06-08",
-      "img": "../../../../../assets/images/Mendy.jpg"
+      "img": "./../../../../../assets/images/Mendy.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "position": "Midfielder",
       "nationality": "German",
       "birth": "1990-01-04",
-      "img": "../../../../../assets/images/Kroos.jpg"
+      "img": "./../../../../../assets/images/Kroos.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "position": "Midfielder",
       "nationality": "Croatian",
       "birth": "1985-09-09",
-      "img": "../../../../../assets/images/Modric.jpg"
+      "img": "./../../../../../assets/images/Modric.jpg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "position": "Midfielder",
       "nationality": "Brazilian",
       "birth": "1992-02-23",
-      "img": "../../../../../assets/images/Casemiro.jpg"
+      "img": "./../../../../../assets/images/Casemiro.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "position": "Midfielder",
       "nationality": "Uruguayan",
       "birth": "1998-07-22",
-      "img": "../../../../../assets/images/Valverde.jpg"
+      "img": "./../../../../../assets/images/Valverde.jpg"
     },
     {
       "id": 10,
@@ -86,7 +86,7 @@
       "position": "Forward",
       "nationality": "Brazilian",
       "birth": "2000-07-12",
-      "img": "../../../../../assets/images/ViniJr.jpg"
+      "img": "./../../../../../assets/images/ViniJr.jpg"
     }
   ]
 }
