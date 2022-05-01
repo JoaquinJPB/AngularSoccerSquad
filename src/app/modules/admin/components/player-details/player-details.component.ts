@@ -40,7 +40,6 @@ export class PlayerDetailsComponent implements OnInit {
       this.adminService.updatePlayer(this.player)
         .subscribe(() => this.goBack())
     }
-
   }
 
 }

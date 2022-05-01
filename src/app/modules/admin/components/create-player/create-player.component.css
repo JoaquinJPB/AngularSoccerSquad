@@ -1,4 +1,3 @@
-
 .card-body{
     border: 4px solid black;
     border-radius: 1rem;
@@ -62,26 +61,26 @@
     font-weight: bold;
 }
 
-.btn-edit:hover {
-    color: #2b94eb;
-}
-
-.btn-edit:hover::before, .btn-edit:hover::after{
-    border-color: #2b94eb;
-}
-
-.btn-delete:hover {
-    color: #ff2828;
-}
-
-.btn-delete:hover::before, .btn-delete:hover::after{
-    border-color: #ff2828;
-}
-
 .btn-create:hover {
-    color: #ffb428;
+    color: #3beb2bde;
 }
 
 .btn-create:hover::before, .btn-create:hover::after{
-    border-color: #ffb428;
+    border-color: #3beb2bde;
+}
+
+.btn-back:hover {
+    color: #ff2828;
+}
+
+.btn-back:hover::before, .btn-back:hover::after{
+    border-color: #ff2828;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select{
+    padding: .5rem;
 }

@@ -19,8 +19,16 @@ export class AdminServicesService {
     return this.http.get(`${this.API_PLAYERS}/${id}`);
   }
 
+  createPlayer(player: any){
+    return this.http.post(this.API_PLAYERS, player)
+  }
+
   updatePlayer(player: any): Observable<any>{
     return this.http.put(`${this.API_PLAYERS}/${player.id}`, player)
+  }
+
+  deletePlayer(id: number){
+    return this.http.delete(`${this.API_PLAYERS}/${id}`);
   }
 
 }

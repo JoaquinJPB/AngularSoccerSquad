@@ -7,6 +7,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PlayerDetailsComponent } from './components/player-details/player-details.component';
+import { CreatePlayerComponent } from './components/create-player/create-player.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,7 @@ const routes: Routes = [
       { path: 'contact', component: ContactComponent },
       { path: '', redirectTo: '/admin/home', pathMatch: 'full' },
       { path: 'home/details/:id', component: PlayerDetailsComponent },
+      { path: 'home/create', component: CreatePlayerComponent },
     ],
   },
 ];

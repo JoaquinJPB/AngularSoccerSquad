@@ -1,0 +1,28 @@
+<section class="container pt-5 pb-5">
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="card-player">
+            <div class="card-body d-flex flex-column">
+                <div class="card-info my-2 d-flex flex-column">
+                    <label for="inputName">Name: </label>
+                    <input type="text" name="inputName" id="namePlayer" #playerName required>
+                    <label for="inputPosition">Position: </label>
+                    <select name="inputPosition" id="positionPlayer" #playerPosition required>
+                        <option value="Goalkeeper">Goalkeeper</option>
+                        <option value="Defender">Defender</option>
+                        <option value="Midfielder">Midfielder</option>
+                        <option value="Forward">Forward</option>
+                    </select>
+                    <label for="inputNationality">Nationality: </label>
+                    <input type="text" name="inputNationality" id="nationalityPlayer" #playerNationality required>
+                    <label for="inputBirth">Birth: </label>
+                    <input type="date" name="inputBirth" id="birthPlayer" #playerBirth required>
+                </div>
+                <div class="mt-2 d-flex flex-row">
+                    <button type="button" class="btn btn-create w-100 draw-border" 
+                    (click)="create(playerName.value, playerPosition.value, playerNationality.value, playerBirth.value)">Create</button>
+                    <button type="button" class="btn btn-back w-100 ms-2 draw-border" (click)="goBack()">Back</button>
+                </div>  
+            </div>
+        </div>  
+    </div>
+</section>

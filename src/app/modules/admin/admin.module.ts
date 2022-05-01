@@ -11,6 +11,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ServicesComponent } from './components/services/services.component';
 import { AboutComponent } from './components/about/about.component';
 import { PlayerDetailsComponent } from './components/player-details/player-details.component';
+import { CreatePlayerComponent } from './components/create-player/create-player.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { PlayerDetailsComponent } from './components/player-details/player-detai
     ServicesComponent,
     AboutComponent,
     PlayerDetailsComponent,
+    CreatePlayerComponent,
   ],
   imports: [CommonModule, AdminRoutingModule, FormsModule],
 })
