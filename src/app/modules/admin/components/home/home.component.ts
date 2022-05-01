@@ -24,9 +24,7 @@ export class HomeComponent implements OnInit {
   }
 
   deletePlayer(player: any){
-    console.log(this.players)
     this.players = JSON.parse(JSON.stringify(Object.values(this.players).filter(p => p !== player)));
-    console.log(this.players)
     this.adminService.deletePlayer(player.id).subscribe();
   }
 
