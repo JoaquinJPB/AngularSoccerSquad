@@ -6,3 +6,7 @@ Requisitos:
 - NG Bootstrap 12.1.1
 - Angular Fontawesome 0.10.2
 - Json Server 0.17.0
+
+Al acceder a la aplicación, se pregunta por unas credenciales que son: 
+U:admin@gmail.com 
+P:admindaw2
