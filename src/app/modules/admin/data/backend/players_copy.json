@@ -6,7 +6,7 @@
         "position": "Goalkeeper",
         "nationality": "Belgian",
         "birth": "1992-05-11",
-        "img": "../../../../../assets/images/Courtois.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/courtois_380x501_20210826062816.jpg"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "position": "Defender",
         "nationality": "Spanish",
         "birth": "1992-01-11",
-        "img": "../../../../../assets/images/Carvajal.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/carvajal_380x501_20210826062807.jpg"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "position": "Defender",
         "nationality": "Brazilian",
         "birth": "1998-01-18",
-        "img": "../../../../../assets/images/Militao.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/militao_380x501_20210826062825.jpg"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "position": "Defender",
         "nationality": "Austrian",
         "birth": "1992-06-24",
-        "img": "../../../../../assets/images/Alaba.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/alaba_380x501_20210826062826.jpg"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "position": "Defender",
         "nationality": "French",
         "birth": "1995-06-08",
-        "img": "../../../../../assets/images/Mendy.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/mendy_he19491_380x501_20210910082744.jpg"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "position": "Midfielder",
         "nationality": "German",
         "birth": "1990-01-04",
-        "img": "../../../../../assets/images/Kroos.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/kroos_380x501_20210826062809.jpg"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "position": "Midfielder",
         "nationality": "Croatian",
         "birth": "1985-09-09",
-        "img": "../../../../../assets/images/Modric.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/modric_380x501_20210826062810.jpg"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "position": "Midfielder",
         "nationality": "Brazilian",
         "birth": "1992-02-23",
-        "img": "../../../../../assets/images/Casemiro.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/casemiro_380x501_20210826062810.jpg"
       },
       {
         "id": 9,
@@ -70,7 +70,7 @@
         "position": "Midfielder",
         "nationality": "Uruguayan",
         "birth": "1998-07-22",
-        "img": "../../../../../assets/images/Valverde.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/valverde_380x501_20210826062806.jpg"
       },
       {
         "id": 10,
@@ -78,7 +78,7 @@
         "position": "Forward",
         "nationality": "French",
         "birth": "1987-12-19",
-        "img": "../../../../../assets/images/Benzema.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/benzema_380x501_20210826062812.jpg"
       },
       {
         "id": 11,
@@ -86,7 +86,15 @@
         "position": "Forward",
         "nationality": "Brazilian",
         "birth": "2000-07-12",
-        "img": "../../../../../assets/images/ViniJr.jpg"
+        "img": "https://www.realmadrid.com/img/vertical_380px/vinijr_380x501_20210826062815.jpg"
+      },
+      {
+        "name": "Rodrigo Goes",
+        "position": "Forward",
+        "nationality": "Brazilian",
+        "birth": "2001-01-09",
+        "img": "https://www.realmadrid.com/img/vertical_380px/rodrygo_380x501_20210826062818.jpg",
+        "id": 12
       }
     ]
   }
