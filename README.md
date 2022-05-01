@@ -1,3 +1,5 @@
+# Angular Squad Soccer - Joaquin Pastore Barrios
+
 Requisitos:
 - Angular 13.3.2
 - Node 16.14.0
