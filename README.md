@@ -8,5 +8,5 @@ Requisitos:
 - Json Server 0.17.0
 
 Al acceder a la aplicación, se pregunta por unas credenciales que son: 
-U:admin@gmail.com 
-P:admindaw2
+- User: admin@gmail.com 
+- Password: admindaw2
