@@ -87,6 +87,14 @@
       "nationality": "Brazilian",
       "birth": "2000-07-12",
       "img": "./../../../../../assets/images/ViniJr.jpg"
+    },
+    {
+      "name": "Rodrigo Goes",
+      "position": "Forward",
+      "nationality": "Brazilian",
+      "birth": "2001-01-09",
+      "img": "https://www.realmadrid.com/img/vertical_380px/rodrygo_380x501_20210826062818.jpg",
+      "id": 12
     }
   ]
 }
