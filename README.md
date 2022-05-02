@@ -17,6 +17,7 @@ Al acceder a la aplicación, se pregunta por unas credenciales que son:
 Para observar el funcionamiento de la aplicación, descargar el proyecto y en la terminal realizar:
 
 - npm run backend
-- ng serve -o
+
+y luego acceder al siguiente enlace: https://angular-soccer-squad.vercel.app/admin/home
 
 
