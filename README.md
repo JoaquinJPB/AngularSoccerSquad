@@ -14,4 +14,9 @@ Al acceder a la aplicación, se pregunta por unas credenciales que son:
 - User: admin@gmail.com 
 - Password: admindaw2
 
-Para observar el funcionamiento de la aplicación acceda mediante este enlace:
+Para observar el funcionamiento de la aplicación, descargar el proyecto y en la terminal realizar:
+
+- npm run backend
+- ng serve -o
+
+
